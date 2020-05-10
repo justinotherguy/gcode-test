@@ -1,0 +1,20 @@
+Layer Height: 0.1mm
+Enable Ironing: yes
+Infill Densiry: 100%
+Printing Temperature: 200°C
+Build Plate Temperature: 60°C
+Print Speed: 80 mm/s
+Enable Retraction: yes
+Combing Mode: Not in Skin
+Avoid Printed Parts When Traveling: yes
+Fan Speed: 1%
+Initial Fan Speed: 0%
+Build Plate Adhesion Type: Skirt
+
+Material:
+Density: 1.24g/cm^3
+Diameter: 1.75mm
+
+Printer:
+G-code flavour: Marlin
+Nozzle size: 0.3mm
