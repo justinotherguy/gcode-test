@@ -1,29 +1,26 @@
-Scale extremely small models: no
+Remove remainders of old installations:
+- rm ~/.config/cura
+- rm ~/.cache/cura
+- rm ~/.local/share/cura
 
-Layer Height: 0.1mm
-Enable Ironing: yes
-Infill Density: 100%
-Printing Temperature: 200°C
-Build Plate Temperature: 60°C
-Print Speed: 80 mm/s
-Combing Mode: Not in Skin
-Fan Speed: 1%
-Build Plate Adhesion Type: Skirt
+Setup of cura:
+- add a non-networked printer
+  - Tevo Tarantula
+- Manage printers
+  - Machine settings
+    - Extruder 1
+      - Nozzle size: 0.3 mm
 
-Material:
-Generic PLA
+Open file: Fuss fuer Gartenstuhl-4.stl
+- select object
+- Rotate ("Snap rotation" is checked)
+  - Lay flat
 
-Printer:
-Select Profile: Tevo Tarantula
-G-code flavour: Marlin
-Nozzle size: 0.3mm
-Printer Settings:
-  X (Width): 207mm
-  Y (Depth): 211mm
-  Z (Height): 200mm
-Printhead Settings:
-  X min: -10
-  Y min: -10
-  X max: 10
-  Y max: 10
+Print settings
+- Custom
+  - Cooling
+    - Fan speed: 1%
 
+Slice
+
+Save to file
